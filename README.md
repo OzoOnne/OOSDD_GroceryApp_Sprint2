@@ -1,7 +1,15 @@
 # GroceryApp sprint2 
 
-## Docentversie  
-In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.  
+## Branching Strategie
+In dit project is de branching strategie Gitflow gebruikt.
+
+Hoe werkt gitflow?
+- Gitflow werkt doormiddel van meerdere branchens: main, hotfix, release, develop en feature branches.
+- De main branch wordt alleen in gemerged indiend release daadwerkelijk klaar is om uitgerold te worden.
+- De hotfix branch wordt alleen gebruikt indien in main een bug is gevonden die snel moet worden opgelost.
+- De release branch is de laatste check voordat het de main in gaat om een release te worden.
+- De develop branch is de main branch voor de feature branches waar ze op terug vallen.
+- De feature branches worden alleen gemaakt als er een feature wordt gemaakt indien die klaar is wordt hij meteen gesloten.
 
 ## Studentversie:  
 ### UC04 Kiezen kleur boodschappenlijst  
