@@ -57,7 +57,7 @@ namespace Grocery.App.ViewModels
         [RelayCommand]
         public void AddProduct(Product product)
         {
-            if (product == null)
+            if (product == null || product.Id > 0)
                 return;
             GroceryListItem item = new (0,groceryList.Id, product.Id, 1);
             _groceryListItemsService.Add(item);
